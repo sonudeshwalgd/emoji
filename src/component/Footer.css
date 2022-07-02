@@ -1,0 +1,82 @@
+@media only screen and (max-width:980px)  {
+    .footerabout{
+display: none;
+    }  
+}
+
+
+footer{
+    width: 100vw ;
+    
+}
+.footer{
+    height: 70vh;
+    background-color: black;
+    color: #b5cad6;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    width:100vw;
+    overflow-x: scroll;
+   
+    
+    }
+    .footercard{
+        color:white;
+        font-size:2rem;
+        width: 25%;
+        margin: 5rem 5rem 5rem 3rem;
+        
+    }
+    .white{
+        white-space:nowrap;
+    }
+    .footercard>h4{
+        font-size:1.5rem;
+        color:rgb(181,202,214);
+        font-weight: 400;
+        text-align: justify;
+        margin: 3rem 0 0 0; 
+    }
+    .footercard>ul{
+        font-size:1.5rem;
+        color:rgb(181,202,214);
+        list-style: none;
+        margin: 3rem 0 0 0rem; 
+    
+    }
+    .footercard>ol{
+        font-size:1.5rem;
+        color:rgb(181,202,214);
+        list-style: none;
+        margin: 3rem 0 0 0rem; 
+    
+    }
+    footer li{
+        margin-top: .4rem;
+    }
+    .footercard>div{
+        font-size:1.5rem;
+        color:rgb(181,202,214);
+        margin-top: 3rem;
+        
+    }
+    .footercard>div>h3{
+       font-size: 1.5rem;
+       line-height: 2rem;
+    
+        
+    }
+    
+    .fb{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    cursor: pointer;
+    
+    }
+    .social{
+        transform: scale(1); 
+        color: white;
+        margin: 1.2rem .2rem !important;
+    }
